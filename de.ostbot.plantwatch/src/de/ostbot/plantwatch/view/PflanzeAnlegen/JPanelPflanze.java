@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package de.ostbot.plantwatch.view.GrowAnlegen;
+package de.ostbot.plantwatch.view.PflanzeAnlegen;
 
 /**
  *
  * @author Ostlord_UBA
  */
-public class JPanelBelichtung extends javax.swing.JPanel {
+public class JPanelPflanze extends javax.swing.JPanel {
 
     /**
-     * Creates new form JPanelBelichtung
+     * Creates new form JPanelPflanze
      */
-    public JPanelBelichtung() {
+    public JPanelPflanze() {
         initComponents();
     }
 
@@ -28,29 +28,12 @@ public class JPanelBelichtung extends javax.swing.JPanel {
     private void initComponents() {
 
         jPanelHintergrund = new javax.swing.JPanel();
-        jLabelQuadratmeter = new javax.swing.JLabel();
-        jSpinnerFlaeche = new javax.swing.JSpinner();
-        jLabelFlaeche = new javax.swing.JLabel();
-        jPanelPlatzhalter = new javax.swing.JPanel();
+        jLabelPflanze = new javax.swing.JLabel();
+        jTextFieldPflanze = new javax.swing.JTextField();
 
         setBackground(new java.awt.Color(153, 153, 153));
 
-        jLabelQuadratmeter.setText("pro Tag");
-
-        jLabelFlaeche.setText("Sonnenstunden:");
-
-        jPanelPlatzhalter.setBackground(new java.awt.Color(255, 255, 0));
-
-        javax.swing.GroupLayout jPanelPlatzhalterLayout = new javax.swing.GroupLayout(jPanelPlatzhalter);
-        jPanelPlatzhalter.setLayout(jPanelPlatzhalterLayout);
-        jPanelPlatzhalterLayout.setHorizontalGroup(
-            jPanelPlatzhalterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 68, Short.MAX_VALUE)
-        );
-        jPanelPlatzhalterLayout.setVerticalGroup(
-            jPanelPlatzhalterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        jLabelPflanze.setText("Pflanze:");
 
         javax.swing.GroupLayout jPanelHintergrundLayout = new javax.swing.GroupLayout(jPanelHintergrund);
         jPanelHintergrund.setLayout(jPanelHintergrundLayout);
@@ -59,29 +42,20 @@ public class JPanelBelichtung extends javax.swing.JPanel {
             .addGroup(jPanelHintergrundLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabelFlaeche)
                     .addGroup(jPanelHintergrundLayout.createSequentialGroup()
-                        .addComponent(jSpinnerFlaeche, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabelQuadratmeter)))
-                .addGap(18, 18, 18)
-                .addComponent(jPanelPlatzhalter, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabelPflanze)
+                        .addGap(0, 111, Short.MAX_VALUE))
+                    .addComponent(jTextFieldPflanze))
                 .addContainerGap())
         );
         jPanelHintergrundLayout.setVerticalGroup(
             jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelHintergrundLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanelPlatzhalter, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanelHintergrundLayout.createSequentialGroup()
-                        .addComponent(jLabelFlaeche)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jSpinnerFlaeche, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabelQuadratmeter))
-                        .addGap(0, 11, Short.MAX_VALUE)))
-                .addContainerGap())
+                .addComponent(jLabelPflanze)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextFieldPflanze, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -104,10 +78,8 @@ public class JPanelBelichtung extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabelFlaeche;
-    private javax.swing.JLabel jLabelQuadratmeter;
+    private javax.swing.JLabel jLabelPflanze;
     private javax.swing.JPanel jPanelHintergrund;
-    private javax.swing.JPanel jPanelPlatzhalter;
-    private javax.swing.JSpinner jSpinnerFlaeche;
+    private javax.swing.JTextField jTextFieldPflanze;
     // End of variables declaration//GEN-END:variables
 }

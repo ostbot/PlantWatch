@@ -23,7 +23,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" max="32767" attributes="0"/>
+              <Component id="jPanelHintergrund" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -32,14 +32,14 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanelHintergrund" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel1">
+    <Container class="javax.swing.JPanel" name="jPanelHintergrund">
 
       <Layout>
         <DimensionLayout dim="0">
@@ -47,50 +47,35 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabelTopfGroesse" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTextFieldTopfgroesse" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                      <Component id="jComboBoxPflanzeImBoden" alignment="0" pref="180" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabelPflanzeImBodenAuswaehlen" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jComboBoxSubstrat" min="-2" pref="80" max="-2" attributes="0"/>
-                      <Component id="jLabelSubstratArt" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabelTopfGroesse" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabelSubstratArt" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jTextFieldTopfgroesse" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jComboBoxSubstrat" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelPflanzeImBodenAuswaehlen" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jComboBoxPflanzeImBoden" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="17" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JTextField" name="jTextFieldTopfgroesse">
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabelTopfGroesse">
+        <Component class="javax.swing.JLabel" name="jLabelPflanzeImBodenAuswaehlen">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Topfgr&#xf6;&#xdf;e in Liter:"/>
+            <Property name="text" type="java.lang.String" value="Pflanze im Boden ausw&#xe4;hlen:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabelSubstratArt">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Substrat:"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBoxSubstrat">
+        <Component class="javax.swing.JComboBox" name="jComboBoxPflanzeImBoden">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">

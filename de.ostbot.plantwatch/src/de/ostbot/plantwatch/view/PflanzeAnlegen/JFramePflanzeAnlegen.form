@@ -54,20 +54,15 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jPanelTopf" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jPanelGenetik" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jPanelPflanze" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanelBodenart" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="jButtonSpeichern" min="-2" pref="113" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jButtonVerlassen" max="32767" attributes="0"/>
+                          <Component id="jButtonSpeichern" min="-2" pref="90" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jButtonVerlassen" min="-2" pref="90" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -75,9 +70,9 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanelGenetik" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanelPflanze" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jPanelTopf" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanelBodenart" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButtonSpeichern" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -89,9 +84,9 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="de.ostbot.plantwatch.view.PflanzeAnlegen.JPanelGenetik" name="jPanelGenetik">
+        <Component class="de.ostbot.plantwatch.view.PflanzeAnlegen.JPanelPflanze" name="jPanelPflanze">
         </Component>
-        <Component class="de.ostbot.plantwatch.view.PflanzeAnlegen.JPanelTopf" name="jPanelTopf">
+        <Component class="de.ostbot.plantwatch.view.PflanzeAnlegen.JPanelBodenart" name="jPanelBodenart">
         </Component>
         <Component class="javax.swing.JButton" name="jButtonSpeichern">
           <Properties>
