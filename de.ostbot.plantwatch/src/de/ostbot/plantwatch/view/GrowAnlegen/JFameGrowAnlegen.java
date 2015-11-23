@@ -11,13 +11,13 @@ public class JFameGrowAnlegen extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanelHintergrund = new javax.swing.JPanel();
-        jPanelPflanzeMitTopf1 = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelPflanzeImBoden();
-        jPanelKlima1 = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelKlima();
-        jPanelZyklus1 = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelZyklus();
-        jPanelWasser1 = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelWasser();
-        jPanelDuenger1 = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelDuenger();
-        jPanelSpurenelemente1 = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelSpurenelemente();
-        jPanelBelichtung1 = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelBelichtung();
+        jPanelPflanzeImBoden = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelPflanzeImBoden();
+        jPanelKlima = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelKlima();
+        jPanelZyklus = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelZyklus();
+        jPanelWasser = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelWasser();
+        jPanelDuenger = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelDuenger();
+        jPanelSpurenelemente = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelSpurenelemente();
+        jPanelBelichtung = new de.ostbot.plantwatch.view.GrowAnlegen.JPanelBelichtung();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -31,19 +31,19 @@ public class JFameGrowAnlegen extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelHintergrundLayout.createSequentialGroup()
-                        .addComponent(jPanelPflanzeMitTopf1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanelPflanzeImBoden, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanelKlima1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jPanelKlima, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelHintergrundLayout.createSequentialGroup()
-                        .addComponent(jPanelBelichtung1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanelBelichtung, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(10, 10, 10)
-                        .addComponent(jPanelZyklus1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jPanelZyklus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelHintergrundLayout.createSequentialGroup()
-                        .addComponent(jPanelDuenger1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanelDuenger, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(10, 10, 10)
-                        .addComponent(jPanelWasser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jPanelWasser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanelSpurenelemente1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanelSpurenelemente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(13, Short.MAX_VALUE))
         );
         jPanelHintergrundLayout.setVerticalGroup(
@@ -51,19 +51,19 @@ public class JFameGrowAnlegen extends javax.swing.JFrame {
             .addGroup(jPanelHintergrundLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanelSpurenelemente1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanelSpurenelemente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanelHintergrundLayout.createSequentialGroup()
                         .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanelKlima1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanelPflanzeMitTopf1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanelKlima, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanelPflanzeImBoden, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanelZyklus1, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanelBelichtung1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanelZyklus, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanelBelichtung, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanelHintergrundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanelWasser1, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanelDuenger1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jPanelWasser, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanelDuenger, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(101, Short.MAX_VALUE))
         );
 
@@ -119,13 +119,13 @@ public class JFameGrowAnlegen extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelBelichtung jPanelBelichtung1;
-    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelDuenger jPanelDuenger1;
+    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelBelichtung jPanelBelichtung;
+    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelDuenger jPanelDuenger;
     private javax.swing.JPanel jPanelHintergrund;
-    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelKlima jPanelKlima1;
-    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelPflanzeImBoden jPanelPflanzeMitTopf1;
-    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelSpurenelemente jPanelSpurenelemente1;
-    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelWasser jPanelWasser1;
-    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelZyklus jPanelZyklus1;
+    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelKlima jPanelKlima;
+    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelPflanzeImBoden jPanelPflanzeImBoden;
+    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelSpurenelemente jPanelSpurenelemente;
+    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelWasser jPanelWasser;
+    private de.ostbot.plantwatch.view.GrowAnlegen.JPanelZyklus jPanelZyklus;
     // End of variables declaration//GEN-END:variables
 }
